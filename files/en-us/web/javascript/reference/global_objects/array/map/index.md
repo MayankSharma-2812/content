@@ -55,7 +55,7 @@ The `map()` method is an [iterative method](/en-US/docs/Web/JavaScript/Reference
 
 The `map()` method is [generic](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#generic_array_methods). It only expects the `this` value to have a `length` property and integer-keyed properties.
 
-Since `map` builds a new array, calling it without using the returned array is an anti-pattern; use {{jsxref("Array/forEach", "forEach")}} or {{jsxref("Statements/for...of", "for...of")}} instead.
+Since `map()` builds a new array, calling it without using the returned array is considered an anti-pattern. In such cases, use {{jsxref("Array/forEach", "forEach")}} or a {{jsxref("Statements/for...of", "for...of")}} loop instead, which are intended for side effects.
 
 ## Examples
 
